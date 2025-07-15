@@ -14,7 +14,7 @@ function App() {
     >
       <div className="mb-5">
         <label
-          for="email"
+          htmlFor="email"
           className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
         >
           Your email
@@ -30,7 +30,7 @@ function App() {
       </div>
       <div className="mb-5">
         <label
-          for="password"
+          htmlFor="password"
           className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
         >
           Your password
@@ -53,7 +53,7 @@ function App() {
           />
         </div>
         <label
-          for="remember"
+          htmlFor="remember"
           className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"
         >
           Remember me
